@@ -79,3 +79,11 @@ verify the url using curl
 curl https://<api-id>.execute-api.<region>.amazonaws.com/
 
 ```
+
+After you're finished with the web server, end the service using the CDK by running the cdk destroy command in your application's main directory. Doing this prevents you from incurring any unintended charges in the future.
+
+```bash 
+
+cdk destroy 
+
+```
